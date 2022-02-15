@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+const kPrimaryColor = Color(0xFFFFB702);
+
+const kSecondaryColor = Color(0xFF0A4E95);
+
+//Gradiants
+const kTealDark = Color(0xFF2FD8B7);
+const kTealLight = Color(0xFFA5F8D7);
+
+const kPinkDark = Color(0xFFFF5370);
+const kPinkLight = Color(0xFFFF8599);
+
+const kBlueDark = Color(0xFF4099FF);
+const kBlueLight = Color(0xFF8BB2F1);
+
+const kYellowDark = Color(0xFFFFBB57);
+const kYellowLight = Color(0xFFFFCB80);
