@@ -1,3 +1,4 @@
+import 'package:amizone_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class DashboardTabs extends StatelessWidget {
@@ -28,6 +29,14 @@ class DashboardTabs extends StatelessWidget {
             lightColor!,
           ],
         ),
+        boxShadow: const [
+          BoxShadow(
+            color: kGrey,
+            spreadRadius: 1,
+            offset: Offset(2.4, 1.8),
+            blurRadius: 8,
+          ),
+        ],
       ),
       child: Center(
         child: Text(title!),

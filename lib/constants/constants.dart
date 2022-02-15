@@ -16,3 +16,9 @@ const kBlueLight = Color(0xFF8BB2F1);
 
 const kYellowDark = Color(0xFFFFBB57);
 const kYellowLight = Color(0xFFFFCB80);
+
+//DividerColor
+const kGrey = Colors.grey;
+
+const kBlueBorder = Color(0x650A4E95);
+const kText = Color(0xFF3A405B);
