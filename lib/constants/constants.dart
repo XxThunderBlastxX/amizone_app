@@ -4,6 +4,8 @@ const kPrimaryColor = Color(0xFFFFB702);
 
 const kSecondaryColor = Color(0xFF0A4E95);
 
+const kBackgroundColor = Color(0xFFECECEC);
+
 //Gradiants
 const kTealDark = Color(0xFF2FD8B7);
 const kTealLight = Color(0xFFA5F8D7);
