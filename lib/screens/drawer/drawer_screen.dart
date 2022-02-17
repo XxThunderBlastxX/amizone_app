@@ -4,6 +4,7 @@ import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import '../../constants/constants.dart';
 import '../../controller/drawer_controller.dart';
 import '../home/home_screen.dart';
+import 'widgets/drawer_body.dart';
 
 class DrawerScreen extends StatelessWidget {
   const DrawerScreen({Key? key}) : super(key: key);
@@ -23,13 +24,7 @@ class DrawerScreen extends StatelessWidget {
       showShadow: true,
       angle: 0.0,
       clipMainScreen: true,
-      menuScreen: Scaffold(
-        backgroundColor: kPrimaryColor,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Text('Drawer list')],
-        ),
-      ),
+      menuScreen: const DrawerBody(),
       mainScreen: const HomeScreen(),
     );
   }

@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: kSecondaryColor,
         leading: IconButton(
           onPressed: () => drawerController.toggle!(),
-          icon: const Icon(Icons.menu),
+          icon: const Icon(Icons.subject),
         ),
       ),
       body: Column(

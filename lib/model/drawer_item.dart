@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-class drawerItem {
-  final Icon? icon;
+class DrawerItem {
+  // final IconData? icon;
   final String? title;
+  final IconData? icon;
 
-  drawerItem({
+  DrawerItem({
     this.icon,
     this.title,
   });
