@@ -19,7 +19,7 @@ class DrawerScreen extends StatelessWidget {
       disableGesture: false,
       mainScreenTapClose: false,
       slideWidth: MediaQuery.of(context).size.width * 0.65,
-      duration: const Duration(milliseconds: 300),
+      duration: const Duration(milliseconds: 380),
       backgroundColor: kSecondaryColor,
       showShadow: true,
       angle: 0.0,
