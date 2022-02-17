@@ -1,3 +1,4 @@
+import 'package:amizone_app/data/drawer_items.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/constants.dart';
@@ -17,7 +18,20 @@ class DrawerBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const DrawerNamePlate(),
-            // ListView.builder(itemBuilder: itemBuilder,itemCount: ,)
+            SizedBox(
+              width: size.width * 0.56,
+              height: size.height * 0.78,
+              child: ListView.builder(
+                itemCount: drawerItems.length,
+                itemBuilder: (context, index) => ListTile(
+                  onTap: () {},
+                  leading: CircleAvatar(
+                    child: Icon(drawerItems[index].icon),
+                  ),
+                  title: Text(drawerItems[index].title.toString()),
+                ),
+              ),
+            )
           ],
         ),
       ),
