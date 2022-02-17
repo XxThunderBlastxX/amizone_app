@@ -1,7 +1,7 @@
-import 'package:amizone_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 
+import '../../constants/constants.dart';
 import '../../controller/drawer_controller.dart';
 import '../home/home_screen.dart';
 
@@ -24,7 +24,7 @@ class DrawerScreen extends StatelessWidget {
       angle: 0.0,
       clipMainScreen: true,
       menuScreen: Scaffold(
-        // backgroundColor: kBackgroundColor,
+        backgroundColor: kPrimaryColor,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [Text('Drawer list')],

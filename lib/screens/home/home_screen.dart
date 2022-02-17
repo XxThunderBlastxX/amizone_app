@@ -17,10 +17,9 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Amity University'),
         backgroundColor: kSecondaryColor,
-        leading: GestureDetector(
-          //TODO :- Fix the drawer on tap issue
-          onTap: drawerController.toggle!(),
-          child: const Icon(Icons.menu),
+        leading: IconButton(
+          onPressed: () => drawerController.toggle!(),
+          icon: const Icon(Icons.menu),
         ),
       ),
       body: Column(
