@@ -1,5 +1,6 @@
-import 'package:amizone_app/constants/constants.dart';
 import 'package:flutter/material.dart';
+
+import '../../../constants/constants.dart';
 
 class DashboardTabs extends StatelessWidget {
   const DashboardTabs({

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './screens/home/home_screen.dart';
 import 'screens/drawer/drawer_screen.dart';
 
 void main() {
@@ -11,10 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: DrawerScreen(),
+      initialRoute: DrawerScreen.routeName,
+      routes: {
+        DrawerScreen.routeName: (context) => const DrawerScreen(),
+        HomeScreen.routeName: (context) => const HomeScreen(),
+      },
     );
   }
 }

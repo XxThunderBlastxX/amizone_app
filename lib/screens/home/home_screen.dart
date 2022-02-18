@@ -5,6 +5,9 @@ import 'widgets/appbar.dart';
 import 'widgets/tabCarousel.dart';
 
 class HomeScreen extends StatelessWidget {
+  //Route Name
+  static const routeName = '/home';
+  //Constructor
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
@@ -14,18 +17,6 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: kBackgroundColor,
-      // appBar: AppBar(
-      //   elevation: 0.0,
-      //   title: const Text('Amity University'),
-      //   backgroundColor: kSecondaryColor,
-      //   leading: IconButton(
-      //     onPressed: () => drawerController.toggle!(),
-      //     icon: const Icon(Icons.subject),
-      //   ),
-      //   flexibleSpace: const AppBarGradient(
-      //     height: 0.5,
-      //   ),
-      // ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,

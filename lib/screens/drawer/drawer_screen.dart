@@ -7,6 +7,8 @@ import '../home/home_screen.dart';
 import 'widgets/drawer_body.dart';
 
 class DrawerScreen extends StatelessWidget {
+  //Route Name
+  static const routeName = 'drawer';
   const DrawerScreen({Key? key}) : super(key: key);
 
   @override
