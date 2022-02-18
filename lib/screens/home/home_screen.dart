@@ -20,13 +20,14 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          const HomeAppBar(),
-          const TabCarousel(),
+        children: const [
+          HomeAppBar(),
+          TabCarousel(),
           Divider(
-            indent: size.width * 0.05,
-            endIndent: size.width * 0.05,
             color: kGrey,
+            height: 4,
+            indent: 20,
+            endIndent: 20,
           ),
         ],
       ),

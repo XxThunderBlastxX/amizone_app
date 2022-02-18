@@ -1,3 +1,4 @@
+import 'package:amizone_app/screens/calender/calender_screen.dart';
 import 'package:flutter/material.dart';
 
 import './screens/home/home_screen.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         DrawerScreen.routeName: (context) => const DrawerScreen(),
         HomeScreen.routeName: (context) => const HomeScreen(),
+        CalenderScreen.routeName: (context) => const CalenderScreen(),
       },
     );
   }
