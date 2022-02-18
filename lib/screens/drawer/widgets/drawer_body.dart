@@ -1,7 +1,7 @@
-import 'package:amizone_app/data/drawer_items.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/constants.dart';
+import '../../../data/drawer_items.dart';
 import 'drawer_name_plate.dart';
 
 class DrawerBody extends StatelessWidget {

@@ -4,6 +4,8 @@ const kPrimaryColor = Color(0xFFFFB702);
 
 const kSecondaryColor = Color(0xFF0A4E95);
 
+const kPurpleColor = Color(0xFF50389E);
+
 const kBackgroundColor = Color(0xFFECECEC);
 
 //Gradiants
