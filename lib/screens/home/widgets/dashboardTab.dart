@@ -5,12 +5,12 @@ import '../../../constants/constants.dart';
 class DashboardTabs extends StatelessWidget {
   const DashboardTabs({
     Key? key,
-    this.title,
+    this.child,
     this.darkColor,
     this.lightColor,
   }) : super(key: key);
 
-  final String? title;
+  final Widget? child;
   final Color? darkColor;
   final Color? lightColor;
   @override
@@ -39,9 +39,7 @@ class DashboardTabs extends StatelessWidget {
           ),
         ],
       ),
-      child: Center(
-        child: Text(title!),
-      ),
+      child: child,
     );
   }
 }

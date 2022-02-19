@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants/constants.dart';
+import '../../../widgets/attendence_graph.dart';
 import 'dashboardTab.dart';
 
 class TabCarousel extends StatelessWidget {
@@ -15,22 +16,19 @@ class TabCarousel extends StatelessWidget {
       child: Row(
         children: const [
           DashboardTabs(
-            title: 'Attendance',
+            child: AttendanceGraph(),
             darkColor: kTealDark,
             lightColor: kTealLight,
           ),
           DashboardTabs(
-            title: 'No Fee Due',
             darkColor: kPinkDark,
             lightColor: kPinkLight,
           ),
           DashboardTabs(
-            title: 'Live Classes',
             darkColor: kBlueDark,
             lightColor: kBlueLight,
           ),
           DashboardTabs(
-            title: 'Online Guest Lecture',
             darkColor: kYellowDark,
             lightColor: kYellowLight,
           ),

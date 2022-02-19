@@ -1,6 +1,6 @@
-import 'package:amizone_app/screens/calender/calender_screen.dart';
 import 'package:flutter/material.dart';
 
+import './screens/calender/calender_screen.dart';
 import './screens/home/home_screen.dart';
 import 'screens/drawer/drawer_screen.dart';
 
