@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants/constants.dart';
 import '../../../widgets/attendence_graph.dart';
+import '../../../widgets/fees.dart';
 import 'dashboardTab.dart';
 
 class TabCarousel extends StatelessWidget {
@@ -21,7 +22,7 @@ class TabCarousel extends StatelessWidget {
             lightColor: kTealLight,
           ),
           DashboardTabs(
-            child: Center(),
+            child: FeesContent(),
             darkColor: kPinkDark,
             lightColor: kPinkLight,
           ),
