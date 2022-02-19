@@ -24,7 +24,7 @@ class Credentials extends StatelessWidget {
             ),
           ),
           const Text(
-            'Email-id: koustav.mondal@s.amity.edu',
+            'Email-id: name.surname@s.amity.edu',
             softWrap: true,
           ),
           const Text('Password: 638@dq*t'),

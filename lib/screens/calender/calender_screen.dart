@@ -1,3 +1,4 @@
+import 'package:amizone_app/widgets/appbar.dart';
 import 'package:flutter/material.dart';
 
 class CalenderScreen extends StatelessWidget {
@@ -7,8 +8,10 @@ class CalenderScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text('Calender'),
+    return Scaffold(
+      body: Column(
+        children: [TopAppBar()],
+      ),
     );
   }
 }

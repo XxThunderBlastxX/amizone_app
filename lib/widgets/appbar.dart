@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../controller/drawer_controller.dart';
+import '../controller/drawer_controller.dart';
 
-class HomeAppBar extends StatelessWidget {
-  const HomeAppBar({
+class TopAppBar extends StatelessWidget {
+  const TopAppBar({
     Key? key,
   }) : super(key: key);
 

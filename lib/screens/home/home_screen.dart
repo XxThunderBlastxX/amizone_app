@@ -1,7 +1,8 @@
+import 'package:amizone_app/screens/home/widgets/my_classes.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/constants.dart';
-import 'widgets/appbar.dart';
+import '../../widgets/appbar.dart';
 import 'widgets/tabCarousel.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -21,7 +22,7 @@ class HomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: const [
-          HomeAppBar(),
+          TopAppBar(),
           TabCarousel(),
           Divider(
             color: kGrey,
@@ -29,6 +30,7 @@ class HomeScreen extends StatelessWidget {
             indent: 20,
             endIndent: 20,
           ),
+          MyClasses(),
         ],
       ),
     );
