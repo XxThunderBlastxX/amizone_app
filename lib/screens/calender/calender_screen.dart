@@ -7,8 +7,8 @@ class CalenderScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text('Calender Screen'),
+    return const Scaffold(
+      body: Text('Calender'),
     );
   }
 }

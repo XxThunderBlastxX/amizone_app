@@ -1,10 +1,8 @@
+import 'package:amizone_app/provider/selected_drawer.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
+import 'package:provider/provider.dart';
 
-import '../../constants/constants.dart';
-import '../../controller/drawer_controller.dart';
-import '../home/home_screen.dart';
-import 'widgets/drawer_body.dart';
+import './widgets/zoom_drawer.dart';
 
 class DrawerScreen extends StatelessWidget {
   //Route Name
@@ -13,21 +11,9 @@ class DrawerScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ZoomDrawer(
-      controller: drawerController,
-      borderRadius: 24,
-      style: DrawerStyle.Style1,
-      openCurve: Curves.fastOutSlowIn,
-      disableGesture: false,
-      mainScreenTapClose: false,
-      slideWidth: MediaQuery.of(context).size.width * 0.65,
-      duration: const Duration(milliseconds: 380),
-      backgroundColor: kSecondaryColor,
-      showShadow: true,
-      angle: 0.0,
-      clipMainScreen: true,
-      menuScreen: const DrawerBody(),
-      mainScreen: const HomeScreen(),
+    return ChangeNotifierProvider(
+      create: (context) => SelectedDrawer(),
+      child: const ZoomDrawerWidget(),
     );
   }
 }
