@@ -27,3 +27,5 @@ const kGrey = Colors.grey;
 
 const kBlueBorder = Color(0x650A4E95);
 const kText = Color(0xFF3A405B);
+
+const kLinkColor = Color(0xFF5A2E00);
