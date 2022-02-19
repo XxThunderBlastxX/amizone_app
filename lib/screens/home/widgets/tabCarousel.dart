@@ -4,6 +4,7 @@ import '../../../constants/constants.dart';
 import '../../../widgets/attendence_graph.dart';
 import '../../../widgets/fees.dart';
 import '../../../widgets/microsoft_credentials.dart';
+import '../../../widgets/webinar_details.dart';
 import 'dashboardTab.dart';
 
 class TabCarousel extends StatelessWidget {
@@ -33,7 +34,7 @@ class TabCarousel extends StatelessWidget {
             lightColor: kBlueLight,
           ),
           DashboardTabs(
-            child: Center(),
+            child: WebinarDetails(),
             darkColor: kYellowDark,
             lightColor: kYellowLight,
           ),
