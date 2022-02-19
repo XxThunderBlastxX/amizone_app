@@ -5,14 +5,16 @@ import '../../../constants/constants.dart';
 class DashboardTabs extends StatelessWidget {
   const DashboardTabs({
     Key? key,
-    this.child,
+    required this.child,
     this.darkColor,
     this.lightColor,
+    this.title,
   }) : super(key: key);
 
-  final Widget? child;
+  final Widget child;
   final Color? darkColor;
   final Color? lightColor;
+  final String? title;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

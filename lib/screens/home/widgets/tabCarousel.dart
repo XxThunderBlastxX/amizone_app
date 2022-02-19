@@ -21,14 +21,17 @@ class TabCarousel extends StatelessWidget {
             lightColor: kTealLight,
           ),
           DashboardTabs(
+            child: Center(),
             darkColor: kPinkDark,
             lightColor: kPinkLight,
           ),
           DashboardTabs(
+            child: Center(),
             darkColor: kBlueDark,
             lightColor: kBlueLight,
           ),
           DashboardTabs(
+            child: Center(),
             darkColor: kYellowDark,
             lightColor: kYellowLight,
           ),
