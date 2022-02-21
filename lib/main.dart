@@ -1,3 +1,4 @@
+import 'package:amizone_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 import './screens/calender/calender_screen.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(primaryColor: kSecondaryColor),
       initialRoute: DrawerScreen.routeName,
       routes: {
         DrawerScreen.routeName: (context) => const DrawerScreen(),
